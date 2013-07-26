@@ -44,6 +44,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/prebuilt/hw_config.sh:system/etc/hw_config.sh
 
+   #XPEIENCE prebuilts
+PRODUCT_COPY_FILES += \
+$(LOCAL_PATH)/prebuilt/axperiau_ondemandax.ko:/system/lib/modules/axperiau_ondemandax.ko \
+$(LOCAL_PATH)/prebuilt/axperiau_pegasusq.ko:/system/lib/modules/axperiau_pegasusq.ko \
+$(LOCAL_PATH)/prebuilt/axperiau_sio_iosched.ko:/system/lib/modules/axperiau_sio_iosched.ko \
+$(LOCAL_PATH)/prebuilt/axperiau_smartass2.ko:/system/lib/modules/axperiau_smartass2.ko \
+$(LOCAL_PATH)/prebuilt/rng-core.ko:/system/lib/modules/rng-core.ko
+   
 # USB function switching
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/config/init.st-ericsson.usb.rc:root/init.st-ericsson.usb.rc

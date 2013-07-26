@@ -58,3 +58,7 @@ persist.audio.hp=true
 
 ro.service.swiqi.supported=false
 persist.service.swiqi.enable=0
+
+#XPE
+ro.cpufreq.governor = ondemand
+ro.cpu.scheduler = sio
